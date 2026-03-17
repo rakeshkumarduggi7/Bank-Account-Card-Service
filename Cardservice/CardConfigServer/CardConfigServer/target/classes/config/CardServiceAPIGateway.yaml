@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true   # optional, makes it use 127.0.0.1
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
